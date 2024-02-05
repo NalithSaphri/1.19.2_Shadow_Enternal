@@ -1,6 +1,7 @@
 package com.nalithsaphri.shadowenternal;
 
 import com.mojang.logging.LogUtils;
+import com.nalithsaphri.shadowenternal.block.ModBlocks;
 import com.nalithsaphri.shadowenternal.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
@@ -38,6 +39,7 @@ public class ShadowEnternal
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.Register(modEventBus);
+        ModBlocks.Register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

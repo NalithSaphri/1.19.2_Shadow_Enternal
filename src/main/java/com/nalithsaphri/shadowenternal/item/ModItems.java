@@ -14,9 +14,9 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item",
-            () -> new Item(new Item.Properties().stacksTo(16).tab(ModCreativeModeTab.SHADOWENTERNAL)));
+            () -> new Item(new Item.Properties().stacksTo(16).tab(ModCreativeModeTab.SHADOWENTERNALTAB)));
     public static final RegistryObject<Item> TEST_COOK_ITEM = ITEMS.register("test_cook_item",
-            () -> new Item(new Item.Properties().stacksTo(16).tab(ModCreativeModeTab.SHADOWENTERNAL)));
+            () -> new Item(new Item.Properties().stacksTo(16).tab(ModCreativeModeTab.SHADOWENTERNALTAB)));
 
     public static void Register(IEventBus eventBus){
         ITEMS.register(eventBus);
