@@ -1,7 +1,19 @@
 {
-  "varients": {
-    "": {
+  "variants": {
+    "facing=north": {
       "model": "shadowenternal:block/shadowalter"
+    },
+    "facing=east": {
+      "model": "shadowenternal:block/shadowalter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "shadowenternal:block/shadowalter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "shadowenternal:block/shadowalter",
+      "y": 270
     }
   }
 }
